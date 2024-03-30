@@ -1,0 +1,9 @@
+Product_ID,Product_Name,Price,Quantity_Sold,Sale_Date
+101,Widget A,20.0,50,2023-12-01
+102,Widget B,25.5,40,2023-12-01
+103,Widget C,15.75,60,2023-12-02
+104,Widget D,30.0,30,2023-12-02
+105,Gadget X,22.0,30,2023-12-03
+106,Gadget Y,28.5,35,2023-12-03
+107,Gadget Z,18.75,25,2023-12-04
+108,Gadget W,35.0,20,2023-12-04

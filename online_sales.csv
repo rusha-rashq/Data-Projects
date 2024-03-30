@@ -1,0 +1,5 @@
+Product_ID,Product_Name,Online_Price,Quantity_Sold_Online,Sale_Date
+101,Widget A,20.0,50,2023-12-01
+102,Widget B,25.5,40,2023-12-01
+103,Widget C,15.75,60,2023-12-02
+104,Widget D,30.0,30,2023-12-02

@@ -1,0 +1,59 @@
+Initial Data Report:
+         PatientID         Name         Age  Blood Pressure  Heart Rate  Temperature
+count   100.000000          100  100.000000       90.000000  100.000000   100.000000
+unique         NaN            4         NaN             NaN         NaN          NaN
+top            NaN  Alice Smith         NaN             NaN         NaN          NaN
+freq           NaN           31         NaN             NaN         NaN          NaN
+mean     50.500000          NaN   48.090000      124.922222   70.410000    33.494904
+std      29.011492          NaN   18.141473       32.641474   26.464039    11.228735
+min       1.000000          NaN   20.000000       72.000000   -1.000000     0.000000
+25%      25.750000          NaN   31.500000       98.000000   65.000000    36.756538
+50%      50.500000          NaN   47.000000      119.000000   75.500000    37.148293
+75%      75.250000          NaN   65.000000      152.000000   88.000000    37.455599
+max     100.000000          NaN   79.000000      179.000000   99.000000    37.977400
+
+Missing Values:
+PatientID          0
+Name               0
+Age                0
+Blood Pressure    10
+Heart Rate         0
+Temperature        0
+dtype: int64
+
+Anomalies Detected:
+    PatientID         Name  Age  Blood Pressure  Heart Rate  Temperature
+1           2     Jane Doe   57            74.0        -1.0    37.344175
+2           3  Bob Johnson   47            87.0        88.0     0.000000
+11         12     John Doe   53           128.0        -1.0    37.866491
+12         13  Bob Johnson   32           119.0        95.0     0.000000
+21         22  Bob Johnson   46           177.0        -1.0    36.980848
+22         23  Alice Smith   47           116.0        72.0     0.000000
+31         32  Alice Smith   23            95.0        -1.0    36.963877
+32         33     Jane Doe   66           116.0        66.0     0.000000
+41         42     John Doe   71            77.0        -1.0    37.485530
+42         43     Jane Doe   26            73.0        65.0     0.000000
+51         52  Alice Smith   29           119.0        -1.0    37.346097
+52         53     Jane Doe   56           141.0        88.0     0.000000
+61         62  Alice Smith   71            90.0        -1.0    36.769115
+62         63  Alice Smith   78           150.0        91.0     0.000000
+71         72     John Doe   66            79.0        -1.0    36.817301
+72         73     Jane Doe   75            72.0        99.0     0.000000
+81         82  Bob Johnson   74            82.0        -1.0    37.844872
+82         83  Alice Smith   34           174.0        86.0     0.000000
+91         92  Bob Johnson   30           120.0        -1.0    36.852894
+92         93  Alice Smith   70           158.0        70.0     0.000000
+
+Final Data Report after Cleaning:
+         PatientID         Name         Age  Blood Pressure  Heart Rate  Temperature
+count   100.000000          100  100.000000      100.000000  100.000000   100.000000
+unique         NaN            4         NaN             NaN         NaN          NaN
+top            NaN  Alice Smith         NaN             NaN         NaN          NaN
+freq           NaN           31         NaN             NaN         NaN          NaN
+mean     50.500000          NaN   48.090000      124.922222   78.344444    37.216560
+std      29.011492          NaN   18.141473       30.949039   11.314745     0.410875
+min       1.000000          NaN   20.000000       72.000000   60.000000    36.507784
+25%      25.750000          NaN   31.500000       99.000000   70.000000    36.897770
+50%      50.500000          NaN   47.000000      124.922222   78.344444    37.216560
+75%      75.250000          NaN   65.000000      150.250000   88.000000    37.455599
+max     100.000000          NaN   79.000000      179.000000   99.000000    37.977400

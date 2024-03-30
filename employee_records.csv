@@ -1,0 +1,6 @@
+EmployeeID,Name,Age,Department
+101,Alice,28.0,HR
+102,Bob,,IT
+103,,32.0,Finance
+104,David,25.0,
+105,Emma,,Marketing
